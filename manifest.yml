@@ -1,0 +1,7 @@
+---
+applications:
+- name: paas-button-prototype-kit
+  memory: 128M
+  env:
+    USERNAME: some-username
+    PASSWORD: some-password
