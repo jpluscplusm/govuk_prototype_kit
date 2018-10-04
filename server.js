@@ -187,6 +187,7 @@ app.locals.useCookieSessionStore = (useCookieSessionStore === 'true')
 app.locals.cookieText = config.cookieText
 app.locals.promoMode = promoMode
 app.locals.releaseVersion = 'v' + releaseVersion
+app.locals.githubUrl = process.env['PAAS_BUTTON_GITHUB_URL']
 app.locals.serviceName = config.serviceName
 
 // Session uses service name to avoid clashes with other prototypes
